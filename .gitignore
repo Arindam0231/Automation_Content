@@ -6,6 +6,10 @@ __pycache__/
 #Environment variables
 .env
 
+.txt
+.webm
+.wav
+
 # Virtual Environment directories
 .env/
 venv/
