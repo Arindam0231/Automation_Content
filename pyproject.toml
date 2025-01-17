@@ -1,0 +1,29 @@
+[project]
+name = "content-copy"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Arindam Ghosal",email = "arindam027g@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.1.0"
+python-dotenv = "^1.0.1"
+yt-dlp = "^2024.12.23"
+mistralai = "^1.2.6"
+langdetect = "^1.0.9"
+langchain = "^0.3.14"
+langchain-mistralai = "^0.2.4"
+pydub = "^0.25.1"
+opencv-python = "^4.10.0.84"
+mediapipe = "^0.10.20"
+gtts = "^2.5.4"
+python-ffmpeg = "^2.0.12"
+openai-whisper = "^20240930"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
