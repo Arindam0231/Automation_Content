@@ -4,8 +4,6 @@ import os
 
 SEGMENT_FOLDER = "segments"
 
-input_file = "content_copy/downloads/Wen5Y0O0Y9M.webm"
-
 
 def process_audio(input_file):
     # Convert the .webm file to .wav
